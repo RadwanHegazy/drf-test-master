@@ -12,10 +12,18 @@
 - Reduces boilerplate code in your API tests
 
 ## Installation
+Clone the Repo 
+
+```
+git clone https://github.com/RadwanHegazy/drf-test-master
+```
 
 Add `drf_test_master` to your Django project (copy the `drf_test_master` directory into your project).
 
-Make sure to add `'drf_test_master'` to your `INSTALLED_APPS` in [core/settings.py](core/settings.py):
+You can delete the directory `drf-test-master` after copy the app into your project.
+
+Make sure to add `'drf_test_master'` to your `INSTALLED_APPS` 
+
 
 ```python
 INSTALLED_APPS = [
